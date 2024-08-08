@@ -18,6 +18,10 @@ app.get('/', (req, res) => {
   res.send('SOY DEL SERVIDOR');
 });
 
+app.get('/prueba', (req, res) => {
+  res.send('SOY DE PRUEBA');
+});
+
 app.post('/create_preference', async (req, res) => {
   console.log(req);
 
