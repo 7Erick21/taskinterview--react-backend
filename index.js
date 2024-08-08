@@ -38,12 +38,9 @@ app.post('/create_preference', async (req, res) => {
         },
       ],
       back_urls: {
-        success:
-          'https://task-interview-react-erick-bxiq-9xtcux8qq.vercel.app/',
-        failure:
-          'https://task-interview-react-erick-bxiq-9xtcux8qq.vercel.app/',
-        pending:
-          'https://task-interview-react-erick-bxiq-9xtcux8qq.vercel.app/',
+        success: 'https://task-interview-react-erick.vercel.app/',
+        failure: 'https://task-interview-react-erick.vercel.app/',
+        pending: 'https://task-interview-react-erick.vercel.app/',
       },
       auto_return: 'approved',
     };
