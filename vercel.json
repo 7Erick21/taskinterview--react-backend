@@ -9,6 +9,10 @@
     {
       "src": "/(.*)",
       "dest": "/"
+    },
+    {
+      "src": "/create_preference",
+      "dest": "/create_preference"
     }
   ]
 }
